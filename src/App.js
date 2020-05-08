@@ -19,7 +19,21 @@ const App = () => {
     <RMState>
       <Router>
         <NavBar />
-        <MainNav />
+        <Switch>
+          <MainNav
+            exact
+            path={[
+              "/",
+              "/episodes",
+              "/locations",
+              "/character/SingleCharcater/:id",
+              "/episode/SingleEpisode/:id",
+              "/location/SingleLocation/:id",
+            ]}
+            component={MainNav}
+          />
+          <Route exact path="/about" component={About} />
+        </Switch>
         <Switch>
           <Route exact path="/" component={Character} />
           <Route exact path="/episodes" component={Episode} />
@@ -39,7 +53,6 @@ const App = () => {
             path="/location/SingleLocation/:id"
             component={SingleLocation}
           />
-          <Route exact path="/about" component={About} />
         </Switch>
       </Router>
     </RMState>

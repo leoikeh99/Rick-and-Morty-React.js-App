@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./img/pngguru.com.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -13,14 +14,14 @@ const NavBar = () => {
           <ul>
             <div className="nav-text">
               <li>
-                <a href="/" className=" text-secondary">
+                <Link to="/" className=" text-secondary">
                   HOME
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className=" text-secondary">
+                <Link to="/about" className=" text-secondary">
                   ABOUT
-                </a>
+                </Link>
               </li>
             </div>
             <div className="nav-icon">
