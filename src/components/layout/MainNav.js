@@ -5,23 +5,19 @@ const MainNav = () => {
   const [characters, setCharacters] = useState(false);
   const [episodes, setEpisodes] = useState(false);
   const [locations, setLocations] = useState(false);
-  const [isAbout, setIsAbout] = useState(false);
 
   useEffect(() => {
     if (window.location.pathname === "/") {
-      setIsAbout(false);
       setCharacters(true);
       setEpisodes(false);
       setLocations(false);
     }
     if (window.location.pathname === "/episodes") {
-      setIsAbout(false);
       setCharacters(false);
       setEpisodes(true);
       setLocations(false);
     }
     if (window.location.pathname === "/locations") {
-      setIsAbout(false);
       setCharacters(false);
       setEpisodes(false);
       setLocations(true);

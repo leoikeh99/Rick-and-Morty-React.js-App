@@ -142,10 +142,13 @@ input {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   .grid-view {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+}
+
+@media (max-width: 520px) {
   .nav-icon li {
     padding: 0px 8px;
   }
