@@ -26,7 +26,7 @@ const Location = () => {
       </form>
 
       {!(text === "") && (
-        <div className="grid-view">
+        <div className="grid-view mb-2">
           <Locations
             results={locations.results}
             loading={loading}

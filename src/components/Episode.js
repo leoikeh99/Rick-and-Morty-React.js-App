@@ -25,7 +25,7 @@ const Episode = () => {
       </form>
 
       {!(text === "") && (
-        <div className="grid-view">
+        <div className="grid-view mb-2">
           <Episodes
             results={episodes.results}
             loading={loading}

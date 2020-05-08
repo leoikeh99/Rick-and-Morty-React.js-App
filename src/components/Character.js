@@ -25,7 +25,7 @@ const Character = () => {
       </form>
 
       {!(text === "") && (
-        <div className="grid-view">
+        <div className="grid-view mb-2">
           <Characters
             results={characters.results}
             loading={loading}
