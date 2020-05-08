@@ -18,7 +18,11 @@ export const About = () => (
           Rick and Morty API
         </a>
       </div>
-      <a className="btn btn-outline-secondary">
+      <a
+        href="https://github.com/leoikeh99/Rick-and-Morty-React.js-App"
+        target="_blank"
+        className="btn btn-outline-secondary"
+      >
         <i className="fab fa-github"></i> VIEW CODE IN GITHUB
       </a>
     </div>
