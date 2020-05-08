@@ -2,9 +2,9 @@
 
 #### Process
 
--Install react
--replace src with the repositories src
--run npm start
--Enjoy.
+- Install react
+- replace src with the repositories src
+- run npm start
+- Enjoy.
 
 External API used: [RICK AND MORTY API](https://rickandmortyapi.com/).
