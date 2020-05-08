@@ -1,6 +1,7 @@
-> ##Rick and Morty react.js app
+> ## Rick and Morty react.js app
 
-####Process
+#### Process
+
 -Install react
 -replace src with the repositories src
 -run npm start
