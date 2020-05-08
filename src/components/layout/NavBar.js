@@ -26,14 +26,14 @@ const NavBar = () => {
             </div>
             <div className="nav-icon">
               <li className="">
-                <a href="/">
+                <Link to="/">
                   <i className="fas fa-home fa text-secondary"></i>
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a href="/about">
+                <Link to="/about">
                   <i className="fas fa-address-book text-secondary"></i>
-                </a>
+                </Link>
               </li>
             </div>
           </ul>
