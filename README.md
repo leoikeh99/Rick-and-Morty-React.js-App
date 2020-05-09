@@ -8,3 +8,5 @@
 - Enjoy.
 
 External API used: [RICK AND MORTY API](https://rickandmortyapi.com/).
+
+Also use app here: [RICK n MORTY NAVIGATOR](https://rickandmorty-navigator.netlify.app/).
