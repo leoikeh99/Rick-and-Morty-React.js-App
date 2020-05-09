@@ -7,21 +7,31 @@ export const About = () => {
         <div className="mt-3"></div>
         <div className="about">
           <h4 className="text-secondary">About this app</h4>
-          <div>Name: Rick n Morty Navigator.</div>
-          <div>Version: 1.0 </div>
-          <div className="mb-2">
-            Description: An aplication created with react.js using the
-            <a
-              href="https://rickandmortyapi.com/"
-              target="_blank"
-              style={{ textDecoration: "underline" }}
-            >
+          <ul>
+            <li>
               {" "}
-              Rick and Morty API
-            </a>{" "}
-            , use this application to search on hundreds of characters getting
-            fully all information.
-          </div>
+              <strong className="text-secondary">Name</strong>: Rick n Morty
+              Navigator.
+            </li>
+            <li>
+              <strong className="text-secondary">Version</strong>: 1.0{" "}
+            </li>
+            <li>
+              <strong className="text-secondary">VersionDescription</strong>: An
+              aplication created with react.js using the
+              <a
+                href="https://rickandmortyapi.com/"
+                target="_blank"
+                style={{ textDecoration: "underline" }}
+              >
+                {" "}
+                Rick and Morty API
+              </a>{" "}
+              , use this application to search on hundreds of characters getting
+              fully all information.
+            </li>
+          </ul>
+          <div className="mb-2"></div>
           <a
             href="https://github.com/leoikeh99/Rick-and-Morty-React.js-App"
             target="_blank"
