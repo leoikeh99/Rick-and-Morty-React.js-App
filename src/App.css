@@ -8,6 +8,11 @@ body {
   margin: auto;
 }
 
+.nav-container {
+  width: 95%;
+  margin: auto;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -30,8 +35,9 @@ nav {
   /*	padding: 9px 0px;*/
   border-bottom: 0.1px solid #777;
   font-weight: bolder;
+  padding: 10px 25px;
 }
-nav .container {
+nav .nav-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -122,6 +128,11 @@ input {
   border-radius: 50%;
 }
 
+.about {
+  max-width: 600px;
+  padding: 5px;
+}
+
 @media (max-width: 500px) {
   nav img {
     max-width: 120px;
@@ -160,5 +171,12 @@ input {
   }
   nav li {
     padding: 0px 8px;
+  }
+  .nav-container {
+    width: 99%;
+    margin: auto;
+  }
+  nav {
+    padding: 10px 7px;
   }
 }
