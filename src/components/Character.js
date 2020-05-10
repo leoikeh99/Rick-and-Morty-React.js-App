@@ -19,7 +19,7 @@ const Character = () => {
           type="text"
           style={{ padding: "18px" }}
           className="form-control font-weight-bolder"
-          placeholder="Enter character name."
+          placeholder="Enter character name..."
           onKeyUp={keyUp}
         />
       </form>
